@@ -1,1 +1,7 @@
-
+We are not receiving any process-truck messages from GOS UAT to CT04 pre-prod during our testing.
+Kindly check the below truck visit details:
+Truck visit ID : GJ12XX100 (check the logs)
+Original Payload:
+<gate><process-truck scan-status="0"><gate-id>CT04_MAIN</gate-id><stage-id>PreGate</stage-id><lane-id>INLANE01</lane-id><truck license-nbr="GJ12XX100" /></process-truck></gate>
+ Could you please reverify the payload configured on your end and confirm whether it matches the above configuration?
+If require, we can connect to fix this issue jointly..
