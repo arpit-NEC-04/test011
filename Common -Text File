@@ -34,3 +34,20 @@ HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded w
 
     requests cannot reach https://dl.google.com/dl/cloudsdk/channels/rapid/components-2.json:
 HTTPSConnectionPool(host='dl.google.com', port=443): Max retries exceeded with url: /dl/cloudsdk/channels/rapid/components-2.json (Caused by SSLError(SSLCertVerificationErr
+
+
+
+
+=========================
+# Retrieve certificates from both Root and Intermediate (CA) system stores
+$rootCerts = Get-ChildItem -Path Cert:\LocalMachine\Root
+$caCerts   = Get-ChildItem -Path Cert:\LocalMachine\CA$allCerts  = $rootCerts +$caCerts
+ 
+# Convert all certificates to PEM format
+$pemContent = foreach ($cert in$allCerts) {
+    $base64 = [System.Convert]::ToBase64String($cert.RawData, [System.Base64FormattingOptions]::InsertLineBreaks)
+    "-----BEGIN CERTIFICATE-----`r`n$base64`r`n-----END CERTIFICATE-----"
+}
+ 
+# Save to your user home directory
+Set-Content -Path "$HOME\corp_full_chain.pem" -Value $pemContent -Encoding Ascii
