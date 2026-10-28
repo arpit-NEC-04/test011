@@ -1,0 +1,108 @@
+PEP Request Payload For Insert New PEP
+{
+    "PEPID": "281022026",
+    "msgId": "LQP terminal",
+    "PEPType": "LQ",
+    "TruckNo": "GJ13AW9912",
+    "DriverMobile": "8128847261",
+    "DriverName": "Rishabh",
+    "DriverLicense": "BR0420130038697",
+    "RFIDType": "F",
+    "RFIDTag": "TAG28012026",
+    "PaymentStatus": "0",
+    "Indicator": "I",
+    "pepStatus": "A",
+    "cleanerName": "",
+    "gatePassDetail": [
+        {
+            "containerNo": "BSIU3348701",
+            "terminalCode": "LQP",
+            "gatePassNo": "281026002902",
+            "tripType": "I"
+        }
+    ]
+}
+
+PEP Response :
+{
+    "status": "OK",
+    "timestamp": "28-10-2026 11:00:38",
+    "message": "Success",
+    "code": "SUC008",
+    "responseBody": {
+        "success": "true",
+        "statusCode": null,
+        "developerMessage": "PEP details saved successfully",
+        "userMessage": "PEP details saved successfully",
+        "errorCode": null,
+        "moreInfoUrls": null,
+        "msgType": null,
+        "error": null,
+        "data": null
+    }
+}
+
+PEP Request Payload For Update existing PEP
+{
+    "PEPID": "281022026",
+    "msgId": "LQP terminal",
+    "PEPType": "LQ",
+    "TruckNo": "GJ13AW9912",
+    "DriverMobile": "8128847261",
+    "DriverName": "Rishabh",
+    "DriverLicense": "BR0420130038697",
+    "RFIDType": "F",
+    "RFIDTag": "TAG28012026",
+    "PaymentStatus": "0",
+    "Indicator": "U",
+    "pepStatus": "C",
+    "cleanerName": "",
+    "gatePassDetail": [
+        {
+            "containerNo": "BSIU3348701",
+            "terminalCode": "LQP",
+            "gatePassNo": "281026002902",
+            "tripType": "I"
+        }
+    ]
+}
+
+Response of the above payload
+{
+    "status": "OK",
+    "timestamp": "28-10-2026 11:01:51",
+    "message": "Success",
+    "code": "SUC008",
+    "responseBody": {
+        "success": "true",
+        "statusCode": null,
+        "developerMessage": "PEP details saved successfully",
+        "userMessage": "PEP details saved successfully",
+        "errorCode": null,
+        "moreInfoUrls": null,
+        "msgType": null,
+        "error": null,
+        "data": null
+    }
+}
+
+
+Request Payload for RFID Data Collection
+{
+    "readerId":"1234",
+     "tagId":"TAG28012026",
+     "locationId":"10",
+     "eventTime":"28102026 11:20:12",
+     "eventId":"1"
+}
+
+Response Payload for RFID Data Collection
+{
+    "status": "Success",
+    "errMsg": "",
+    "readerId": "1234",
+    "boom": "OFF",
+    "displayType": "GREEN",
+    "line1": "",
+    "line2": ""
+}
