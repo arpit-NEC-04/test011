@@ -1,0 +1,78 @@
+"<soapenv:Envelope xmlns:arg=""http://www.navis.com/services/argoservice"" xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"">
+	<soapenv:Header />
+	<soapenv:Body>
+	<arg:genericInvoke>
+	<arg:scopeCoordinateIdsWsType>
+	<operatorId>APSEZ</operatorId>
+	<complexId>MUNDRA</complexId>
+	<facilityId>CT02</facilityId>
+	<yardId>CT02</yardId>
+	</arg:scopeCoordinateIdsWsType>
+	<arg:xmlDoc>
+	<![CDATA[
+	<gate>
+		<process-truck scan-status=""0"">
+		<gate-id>CT05 GATE</gate-id>
+		<stage-id>PREGATE</stage-id>
+		<lane-id>INLANE01</lane-id>
+		<truck license-nbr=""MH02AA6268"" />
+		</process-truck>
+	</gate>
+	]]>
+	</arg:xmlDoc>
+	</arg:genericInvoke>
+	</soapenv:Body>
+	</soapenv:Envelope>"
+
+"<?xml version=""1.0"" encoding=""UTF-8""?><soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""><soapenv:Body><genericInvokeResponse xmlns=""http://www.navis.com/services/argoservice""><genericInvokeResponse><ns1:commonResponse xmlns:ns1=""http://types.webservice.argo.navis.com/v1.0""><ns1:Status>3</ns1:Status><ns1:StatusDescription>Severe errors occurred, check message.</ns1:StatusDescription><ns1:MessageCollector><ns1:Messages><ns1:Message>The scope coordinate ID definition is not valid.</ns1:Message><ns1:SeverityLevel>SEVERE</ns1:SeverityLevel></ns1:Messages></ns1:MessageCollector></ns1:commonResponse><ns2:responsePayLoad xmlns:ns2=""http://types.webservice.argo.navis.com/v1.0"">&lt;update-status&gt;
+	&lt;document-update status=&quot;REJECTED&quot; &gt;The scope coordinate ID definition is not valid.&lt;/document-update &gt;
+	&lt;entity-updates amount-successful=&quot;0&quot; amount-failed=&quot;0&quot; amount-not-found=&quot;0&quot;&gt;
+			&lt;/entity-updates&gt;
+	&lt;/update-status&gt;
+</ns2:responsePayLoad></genericInvokeResponse></genericInvokeResponse></soapenv:Body></soapenv:Envelope>"
+
+
+
+
+"<?xml version=""1.0"" encoding=""UTF-8""?><soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""><soapenv:Body><genericInvokeResponse xmlns=""http://www.navis.com/services/argoservice""><genericInvokeResponse><ns1:commonResponse xmlns:ns1=""http://types.webservice.argo.navis.com/v1.0""><ns1:Status>3</ns1:Status><ns1:StatusDescription>Severe errors occurred, check message.</ns1:StatusDescription><ns1:MessageCollector><ns1:Messages><ns1:Message>The scope coordinate ID definition is not valid.</ns1:Message><ns1:SeverityLevel>SEVERE</ns1:SeverityLevel></ns1:Messages></ns1:MessageCollector></ns1:commonResponse><ns2:responsePayLoad xmlns:ns2=""http://types.webservice.argo.navis.com/v1.0"">&lt;update-status&gt;
+	&lt;document-update status=&quot;REJECTED&quot; &gt;The scope coordinate ID definition is not valid.&lt;/document-update &gt;
+	&lt;entity-updates amount-successful=&quot;0&quot; amount-failed=&quot;0&quot; amount-not-found=&quot;0&quot;&gt;
+			&lt;/entity-updates&gt;
+	&lt;/update-status&gt;
+</ns2:responsePayLoad></genericInvokeResponse></genericInvokeResponse></soapenv:Body></soapenv:Envelope>"
+
+
+
+
+"<?xml version=""1.0"" encoding=""UTF-8""?><soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""><soapenv:Body><genericInvokeResponse xmlns=""http://www.navis.com/services/argoservice""><genericInvokeResponse><ns1:commonResponse xmlns:ns1=""http://types.webservice.argo.navis.com/v1.0""><ns1:Status>3</ns1:Status><ns1:StatusDescription>Severe errors occurred, check message.</ns1:StatusDescription><ns1:MessageCollector><ns1:Messages><ns1:Message>The scope coordinate ID definition is not valid.</ns1:Message><ns1:SeverityLevel>SEVERE</ns1:SeverityLevel></ns1:Messages></ns1:MessageCollector></ns1:commonResponse><ns2:responsePayLoad xmlns:ns2=""http://types.webservice.argo.navis.com/v1.0"">&lt;update-status&gt;
+	&lt;document-update status=&quot;REJECTED&quot; &gt;The scope coordinate ID definition is not valid.&lt;/document-update &gt;
+	&lt;entity-updates amount-successful=&quot;0&quot; amount-failed=&quot;0&quot; amount-not-found=&quot;0&quot;&gt;
+			&lt;/entity-updates&gt;
+	&lt;/update-status&gt;
+</ns2:responsePayLoad></genericInvokeResponse></genericInvokeResponse></soapenv:Body></soapenv:Envelope>"
+
+
+
+"<?xml version=""1.0"" encoding=""UTF-8""?><soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""><soapenv:Body><genericInvokeResponse xmlns=""http://www.navis.com/services/argoservice""><genericInvokeResponse><ns1:commonResponse xmlns:ns1=""http://types.webservice.argo.navis.com/v1.0""><ns1:Status>3</ns1:Status><ns1:StatusDescription>Severe errors occurred, check message.</ns1:StatusDescription><ns1:MessageCollector><ns1:Messages><ns1:Message>The scope coordinate ID definition is not valid.</ns1:Message><ns1:SeverityLevel>SEVERE</ns1:SeverityLevel></ns1:Messages></ns1:MessageCollector></ns1:commonResponse><ns2:responsePayLoad xmlns:ns2=""http://types.webservice.argo.navis.com/v1.0"">&lt;update-status&gt;
+	&lt;document-update status=&quot;REJECTED&quot; &gt;The scope coordinate ID definition is not valid.&lt;/document-update &gt;
+	&lt;entity-updates amount-successful=&quot;0&quot; amount-failed=&quot;0&quot; amount-not-found=&quot;0&quot;&gt;
+			&lt;/entity-updates&gt;
+	&lt;/update-status&gt;
+</ns2:responsePayLoad></genericInvokeResponse></genericInvokeResponse></soapenv:Body></soapenv:Envelope>"
+
+
+
+"<?xml version=""1.0"" encoding=""UTF-8""?><soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""><soapenv:Body><genericInvokeResponse xmlns=""http://www.navis.com/services/argoservice""><genericInvokeResponse><ns1:commonResponse xmlns:ns1=""http://types.webservice.argo.navis.com/v1.0""><ns1:Status>3</ns1:Status><ns1:StatusDescription>Severe errors occurred, check message.</ns1:StatusDescription><ns1:MessageCollector><ns1:Messages><ns1:Message>The scope coordinate ID definition is not valid.</ns1:Message><ns1:SeverityLevel>SEVERE</ns1:SeverityLevel></ns1:Messages></ns1:MessageCollector></ns1:commonResponse><ns2:responsePayLoad xmlns:ns2=""http://types.webservice.argo.navis.com/v1.0"">&lt;update-status&gt;
+	&lt;document-update status=&quot;REJECTED&quot; &gt;The scope coordinate ID definition is not valid.&lt;/document-update &gt;
+	&lt;entity-updates amount-successful=&quot;0&quot; amount-failed=&quot;0&quot; amount-not-found=&quot;0&quot;&gt;
+			&lt;/entity-updates&gt;
+	&lt;/update-status&gt;
+</ns2:responsePayLoad></genericInvokeResponse></genericInvokeResponse></soapenv:Body></soapenv:Envelope>"
+
+
+"<?xml version=""1.0"" encoding=""UTF-8""?><soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""><soapenv:Body><genericInvokeResponse xmlns=""http://www.navis.com/services/argoservice""><genericInvokeResponse><ns1:commonResponse xmlns:ns1=""http://types.webservice.argo.navis.com/v1.0""><ns1:Status>3</ns1:Status><ns1:StatusDescription>Severe errors occurred, check message.</ns1:StatusDescription><ns1:MessageCollector><ns1:Messages><ns1:Message>The scope coordinate ID definition is not valid.</ns1:Message><ns1:SeverityLevel>SEVERE</ns1:SeverityLevel></ns1:Messages></ns1:MessageCollector></ns1:commonResponse><ns2:responsePayLoad xmlns:ns2=""http://types.webservice.argo.navis.com/v1.0"">&lt;update-status&gt;
+	&lt;document-update status=&quot;REJECTED&quot; &gt;The scope coordinate ID definition is not valid.&lt;/document-update &gt;
+	&lt;entity-updates amount-successful=&quot;0&quot; amount-failed=&quot;0&quot; amount-not-found=&quot;0&quot;&gt;
+			&lt;/entity-updates&gt;
+	&lt;/update-status&gt;
+</ns2:responsePayLoad></genericInvokeResponse></genericInvokeResponse></soapenv:Body></soapenv:Envelope>"
