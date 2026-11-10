@@ -1,3 +1,8 @@
+TE12HJ1234 PEP > 7241
+GJ01RAJA
+
+
+
 We are not receiving any process-truck messages from GOS UAT to CT04 pre-prod during our testing.
 Kindly check the below truck visit details:
 Truck visit ID : GJ12XX100 (check the logs)
@@ -8,35 +13,6 @@ If require, we can connect to fix this issue jointly..
 
 https://mut2n4appuat.adani.com/apex//services/argoservice
 https://mut2n4app.adani.com/apex/services/argoservice
-
-oauth2.googleapis.com
-
-  httplib2 cannot reach https://accounts.google.com:
-[WinError 10054] An existing connection was forcibly closed by the remote host
-
-    httplib2 cannot reach https://cloudresourcemanager.googleapis.com/v1beta1/projects:
-[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
-
-    httplib2 cannot reach https://www.googleapis.com/auth/cloud-platform:
-[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
-
-    httplib2 cannot reach https://dl.google.com/dl/cloudsdk/channels/rapid/components-2.json:
-[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
-
-    requests cannot reach https://accounts.google.com:
-('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
-
-    requests cannot reach https://cloudresourcemanager.googleapis.com/v1beta1/projects:
-HTTPSConnectionPool(host='cloudresourcemanager.googleapis.com', port=443): Max retries exceeded with url: /v1beta1/projects (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
-
-    requests cannot reach https://www.googleapis.com/auth/cloud-platform:
-HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /auth/cloud-platform (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
-
-    requests cannot reach https://dl.google.com/dl/cloudsdk/channels/rapid/components-2.json:
-HTTPSConnectionPool(host='dl.google.com', port=443): Max retries exceeded with url: /dl/cloudsdk/channels/rapid/components-2.json (Caused by SSLError(SSLCertVerificationErr
-
-
-
 
 =========================
 # Retrieve certificates from both Root and Intermediate (CA) system stores
