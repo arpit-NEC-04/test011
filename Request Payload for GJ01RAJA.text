@@ -1,0 +1,37 @@
+----------------------------------------------------------------
+REQUEST JSON FOR - GJ01RAJA
+<soapenv:Envelope xmlns:arg="http://www.navis.com/services/argoservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header />
+	<soapenv:Body>
+	<arg:genericInvoke>
+	<arg:scopeCoordinateIdsWsType>
+	<operatorId>APSEZ</operatorId>
+	<complexId>MUNDRA</complexId>
+	<facilityId>CT05</facilityId>
+	<yardId>CT05</yardId>
+	</arg:scopeCoordinateIdsWsType>
+	<arg:xmlDoc>
+	<![CDATA[
+	<gate>
+		<process-truck scan-status="0">
+		<gate-id>CT05 GATE</gate-id>
+		<stage-id>PREGATE</stage-id>
+		<lane-id>INLANE01</lane-id>
+		<truck license-nbr="GJ01RAJA" />
+		</process-truck>
+	</gate>
+	]]>
+	</arg:xmlDoc>
+	</arg:genericInvoke>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+----------------------------------------------------------------
+RESPONSE JSON FOR - GJ01RAJA
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><genericInvokeResponse xmlns="http://www.navis.com/services/argoservice"><genericInvokeResponse><ns1:commonResponse xmlns:ns1="http://types.webservice.argo.navis.com/v1.0"><ns1:Status>3</ns1:Status><ns1:StatusDescription>Severe errors occurred, check message.</ns1:StatusDescription><ns1:MessageCollector><ns1:Messages><ns1:Message>Unknown IN lane INLANE01 for gate CT05 GATE</ns1:Message><ns1:SeverityLevel>SEVERE</ns1:SeverityLevel></ns1:Messages></ns1:MessageCollector><ns1:QueryResults><ns1:Result>&lt;argo:gate-response xmlns:argo=&quot;http://www.navis.com/argo&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.navis.com/argo GateWebserviceResponse.xsd&quot;&gt;&lt;process-truck-response /&gt;&lt;/argo:gate-response&gt;</ns1:Result></ns1:QueryResults></ns1:commonResponse><ns2:responsePayLoad xmlns:ns2="http://types.webservice.argo.navis.com/v1.0">&lt;update-status&gt;
+	&lt;document-update status=&quot;ACCEPTED&quot; &gt;&lt;/document-update &gt;
+	&lt;entity-updates amount-successful=&quot;0&quot; amount-failed=&quot;1&quot; amount-not-found=&quot;0&quot;&gt;
+		&lt;logical-entity-update logical-entity=&quot;n/a&quot; id=&quot;unknown&quot; status=&quot;FAILED&quot; &gt;Unknown IN lane INLANE01 for gate CT05 GATE&lt;/logical-entity-update&gt;
+	&lt;/entity-updates&gt;
+	&lt;/update-status&gt;
+</ns2:responsePayLoad></genericInvokeResponse></genericInvokeResponse></soapenv:Body></soapenv:Envelope>
